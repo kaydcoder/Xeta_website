@@ -3,6 +3,7 @@ body {
     color: #f0f0f0;
     overflow-x: hidden;
     background-color: #0D1B2A;
+    background-image: url('pixels-tara-winstead-8386440.jpg URL');
   }
   header {
     background-color: #1e1e1e;
@@ -73,3 +74,30 @@ to { transform: scale(1); opacity: 1; }
 from { transform: translateY(30px); opacity: 0; }
 to { transform: translateY(0); opacity: 1; }
 }
+header, nav {
+    background-color: inherit;
+    color: white;
+}
+  .hero {
+    background-color: #0D1B2A;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  .services-list {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+  .div  {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+     background-color: #0D1B2A;
+
+  }
+  .change {
+    background-color: #0D1B2A;
+  }
+  #changes {
+    width: 500px;
+  }

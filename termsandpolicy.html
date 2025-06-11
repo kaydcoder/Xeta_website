@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+            body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(270deg, #0f2027, #203a43, #2c5364);
+      background-size: 600% 600%;
+      animation: gradientBG 15s ease infinite;
+      color: #e0e7ff;
+      scroll-behavior: smooth;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    @keyframes gradientBG {
+      0% {background-position:0% 50%;}
+      50% {background-position:100% 50%;}
+      100% {background-position:0% 50%;}
+    }
+
+    /* Container max width */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1rem;
+      width: 100%;
+    }
+
+    /* Navigation styles */
+    header {
+      background: rgba(15, 32, 39, 0.85);
+      backdrop-filter: saturate(180%) blur(10px);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.7);
+    }
+
+    nav a {
+      color: #a5b4fc;
+      font-weight: 500;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #818cf8;
+    }
+
+    /* Section styling */
+    section {
+      padding: 4rem 0;
+    }
+
+    /* Cards */
+    .card {
+      background: rgba(31, 41, 55, 0.8);
+      border-radius: 1rem;
+      padding: 1.5rem;
+      box-shadow: 0 8px 24px rgb(31 41 55 / 0.6);
+      transition: transform 0.3s ease;
+      color: #c7d2fe;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 32px rgb(99 102 241 / 0.8);
+      color: #6366f1;
+    }
+
+    /* Footer */
+    footer {
+      background: rgba(15, 32, 39, 0.9);
+      text-align: center;
+      padding: 1rem 0;
+      color: #a5b4fc;
+      margin-top: auto;
+      font-size: 0.9rem;
+      user-select: none;
+    }
+
+    /* Headings */
+    h1, h2, h3, h4 {
+      color: #c7d2fe;
+    }
+
+    /* Link styling for emails */
+    a.email-link {
+      color: #818cf8;
+      text-decoration: underline;
+    }
+    a.email-link:hover {
+      color: #a5b4fc;
+    }
+    div {
+        text-align: center;
+    }
+    </style>
+      <header>
+    <div class="container flex justify-between items-center py-4">
+      <h1 class="text-3xl font-bold text-indigo-400">Prisma Terms and Policy</h1>
+      <nav class="space-x-4">
+        <a href="index.html">Home</a>
+               
+      </nav>
+    </div>
+  </header>
+    <main class="container">
+    <div class="div">
+    <section id="terms" class="mt-24 max-w-4xl mx-auto bg-gray-900 bg-opacity-60 rounded-lg p-8 text-indigo-200">
+      <h2 class="text-3xl font-bold mb-6">Terms of Service</h2>
+      <p>Welcome to Prisma! These terms govern your use of our website and services.</p>
+
+      <h3 class="text-xl font-semibold mt-6">1. Acceptance</h3>
+      <p>By using our services, you agree to these terms.</p>
+
+      <h3 class="text-xl font-semibold mt-6">2. Use License</h3>
+      <p>You may use our products only for lawful purposes and according to our guidelines.</p>
+
+      <h3 class="text-xl font-semibold mt-6">3. Intellectual Property</h3>
+      <p>All content, trademarks, and logos are owned by Prisma and protected by law.</p>
+
+      <h3 class="text-xl font-semibold mt-6">4. Liability</h3>
+      <p>We are not liable for damages from use of our services.</p>
+
+      <h3 class="text-xl font-semibold mt-6">5. Changes</h3>
+      <p>We may update these terms at any time; please check back regularly.</p>
+    </section>
+    <section id="privacy" class="mt-24 mb-24 max-w-4xl mx-auto bg-gray-900 bg-opacity-60 rounded-lg p-8 text-indigo-200">
+      <h2 class="text-3xl font-bold mb-6">Privacy Policy</h2>
+      <p>Your privacy is important to us at Prisma. This policy explains how we collect and use your data.</p>
+
+      <h3 class="text-xl font-semibold mt-6">1. Information Collection</h3>
+      <p>We collect only necessary information you provide directly.</p>
+
+      <h3 class="text-xl font-semibold mt-6">2. Use of Information</h3>
+      <p>We use your data to improve our services and communicate with you.</p>
+
+      <h3 class="text-xl font-semibold mt-6">3. Sharing</h3>
+      <p>We do not share your personal information with third parties without consent.</p>
+
+      <h3 class="text-xl font-semibold mt-6">4. Security</h3>
+      <p>We implement industry-standard measures to protect your data.</p>
+
+      <h3 class="text-xl font-semibold mt-6">5. Changes to Policy</h3>
+      <p>We may update this policy; continued use means acceptance.</p>
+    </section>
+    
+    </div>
+    </main>
+
+  
+
+
+
+</body>
+</html>
